@@ -15,9 +15,9 @@ import CoreData
 
 class NoteWorker
 {
-    func getNoteFromCorData(context: NSManagedObjectContext, complition: @escaping (Result<[Any]?, Error>) -> Void) {
+    func getNoteFromCorData(complition: @escaping (Result<[Any]?, Error>) -> Void) {
         do {
-            let notes = try context.fetch(MyNote.fetchRequest())
+            let notes = try AppDelegatConstant.context.fetch(MyNote.fetchRequest())
             complition(.success(notes))
         } catch {
             complition(.failure(error))

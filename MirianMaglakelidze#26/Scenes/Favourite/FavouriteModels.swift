@@ -12,18 +12,16 @@
 
 import UIKit
 
-enum Favourite
-{
-  // MARK: Use cases
-  
-  enum Something
-  {
-    struct Request {}
-    struct Response {
-        var notes: [MyNote]
+enum Favourite {
+    // MARK: Use cases
+    
+    enum Something {
+        struct Request {}
+        struct Response {
+            var notes: [MyNote]
+        }
+        struct ViewModel {
+            var notes: [MyNote]
+        }
     }
-    struct ViewModel {
-        var notes: [MyNote]
-    }
-  }
 }

@@ -26,7 +26,6 @@ enum Edit {
     struct ViewModel {
         var title: AlerTitle
         var message: String
-
     }
   }
 }

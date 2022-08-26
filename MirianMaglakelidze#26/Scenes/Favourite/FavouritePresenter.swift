@@ -13,17 +13,16 @@
 import UIKit
 
 protocol FavouritePresentationLogic {
-  func presentFavouriteNote(response: Favourite.Something.Response)
+    func presentFavouriteNote(response: Favourite.Something.Response)
 }
 
-class FavouritePresenter: FavouritePresentationLogic
-{
-  weak var viewController: FavouriteDisplayLogic?
-  
-  // MARK: Do something
-  
-  func presentFavouriteNote(response: Favourite.Something.Response) {
-    let viewModel = Favourite.Something.ViewModel(notes: response.notes)
-    viewController?.displayFavouriteNote(viewModel: viewModel)
-  }
+class FavouritePresenter: FavouritePresentationLogic {
+    weak var viewController: FavouriteDisplayLogic?
+    
+    // MARK: Do something
+    
+    func presentFavouriteNote(response: Favourite.Something.Response) {
+        let viewModel = Favourite.Something.ViewModel(notes: response.notes)
+        viewController?.displayFavouriteNote(viewModel: viewModel)
+    }
 }

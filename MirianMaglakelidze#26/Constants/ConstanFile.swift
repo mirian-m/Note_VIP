@@ -11,3 +11,7 @@ import UIKit
 class TableViewConstant {
     static let heightForRow: CGFloat = 100
 }
+
+class AppDelegatConstant {
+    static let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+}

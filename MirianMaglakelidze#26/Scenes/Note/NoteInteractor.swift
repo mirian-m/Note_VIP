@@ -31,16 +31,16 @@ class NoteInteractor: NoteBusinessLogic, NoteDataStore {
     
     func fetchNote(request: Note.CoreData.Request) {
         worker = NoteWorker()
-        worker?.getNoteFromCorData(context: request.context, complition: { [weak self] result in
+        worker?.getNoteFromCorData(complition: { [weak self] result in
             let response = Note.CoreData.Response(result: result)
             self?.presenter?.presentFetchResult(response: response)
         })
     }
     
     func removeNote(request: Note.RemoveNote.Request) {
-        request.context.delete(request.note)
+        AppDelegatConstant.context.delete(request.note)
         do {
-            try request.context.save()
+            try AppDelegatConstant.context.save()
             presenter?.presentDeleteResult(respons: Note.RemoveNote.Response(error: nil))
         } catch {
             let respons = Note.RemoveNote.Response(error: error)

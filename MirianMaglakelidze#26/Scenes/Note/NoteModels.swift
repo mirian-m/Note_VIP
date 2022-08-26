@@ -18,7 +18,6 @@ enum Note
     // MARK: Use cases
     enum RemoveNote {
         struct Request {
-            var context: NSManagedObjectContext
             var note: MyNote
         }
         struct Response {
@@ -30,9 +29,7 @@ enum Note
         
     }
     enum CoreData {
-        struct Request {
-            var context: NSManagedObjectContext
-        }
+        struct Request {}
         struct Response {
             var result: Result<[Any]?, Error>
         }

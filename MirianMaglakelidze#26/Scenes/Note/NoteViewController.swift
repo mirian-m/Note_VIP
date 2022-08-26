@@ -21,7 +21,6 @@ class NoteViewController: UITableViewController, NoteDisplayLogic {
     
     var interactor: NoteBusinessLogic?
     var router: (NSObjectProtocol & NoteRoutingLogic & NoteDataPassing)?
-    private var menegerContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     private var notes: [MyNote] = []
     private lazy var longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(handleLongPress))
     private var tappedCellIndex: Int?
@@ -81,7 +80,7 @@ class NoteViewController: UITableViewController, NoteDisplayLogic {
     // MARK: Do something
     
     func getNotes() {
-        let request = Note.CoreData.Request(context: menegerContext)
+        let request = Note.CoreData.Request()
         interactor?.fetchNote(request: request)
     }
     
@@ -126,7 +125,7 @@ class NoteViewController: UITableViewController, NoteDisplayLogic {
         }))
         
         alert.addAction(UIAlertAction(title: "Delete", style: .destructive , handler:{ [weak self] _ in
-            let requset = Note.RemoveNote.Request(context: self!.menegerContext, note: self!.notes[self!.tappedCellIndex!])
+            let requset = Note.RemoveNote.Request(note: self!.notes[self!.tappedCellIndex!])
             self!.notes.remove(at: self!.tappedCellIndex!)
             self?.interactor?.removeNote(request: requset)
         }))
@@ -162,3 +161,4 @@ extension NoteViewController {
         TableViewConstant.heightForRow
     }
 }
+

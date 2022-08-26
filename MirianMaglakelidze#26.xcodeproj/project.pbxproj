@@ -122,7 +122,7 @@
 				84C37F7128B8A1D50093A2F6 /* MyNote+CoreDataProperties.swift */,
 				84C37F9628B8FAD30093A2F6 /* Model */,
 				846F8FDA28B8122800CC719C /* CustomCells */,
-				846F8FD628B8118B00CC719C /* Conastans */,
+				846F8FD628B8118B00CC719C /* Constants */,
 				846F8FC728B80F2C00CC719C /* Scenes */,
 				846F8FAF28B8052300CC719C /* AppDelegate.swift */,
 				846F8FB128B8052300CC719C /* SceneDelegate.swift */,
@@ -160,12 +160,12 @@
 			path = Note;
 			sourceTree = "<group>";
 		};
-		846F8FD628B8118B00CC719C /* Conastans */ = {
+		846F8FD628B8118B00CC719C /* Constants */ = {
 			isa = PBXGroup;
 			children = (
 				846F8FD728B8119F00CC719C /* ConstanFile.swift */,
 			);
-			path = Conastans;
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		846F8FDA28B8122800CC719C /* CustomCells */ = {

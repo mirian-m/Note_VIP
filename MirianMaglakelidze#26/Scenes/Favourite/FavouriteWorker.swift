@@ -15,11 +15,11 @@ import CoreData
 
 class FavouriteWorker {
     func getNoteUsingPredicate(complition: @escaping (Result<[MyNote], Error>) ->Void) {
-        let managedContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         let fetchRequset: NSFetchRequest<MyNote> = MyNote.fetchRequest()
+        
         fetchRequset.predicate = NSPredicate(format: "isFavourite == %@", "1")
         do {
-            let notes = try managedContext.fetch(fetchRequset)
+            let notes = try AppDelegatConstant.context.fetch(fetchRequset)
             complition(.success(notes))
         } catch  {
             complition(.failure(error))

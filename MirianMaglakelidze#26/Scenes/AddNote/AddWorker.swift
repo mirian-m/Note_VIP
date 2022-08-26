@@ -15,14 +15,13 @@ import CoreData
 
 class AddWorker {
     func saveNewNoteToCoreData(note: NoteForme, complition: @escaping (Error?) -> Void) {
-        guard let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext else { return }
-        let newNote = MyNote(context: context)
+        let newNote = MyNote(context: AppDelegatConstant.context)
         newNote.info = note.info
         newNote.title = note.title
         newNote.isFavourite = note.isFavourite
         newNote.creationDate = note.createDate
         do {
-            try context.save()
+            try AppDelegatConstant.context.save()
             complition(nil)
         } catch {
             complition(error)

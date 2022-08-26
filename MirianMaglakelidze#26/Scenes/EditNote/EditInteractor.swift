@@ -28,14 +28,13 @@ class EditInteractor: EditBusinessLogic, EditDataStore {
     // MARK: Do something
     
     func editNote(request: Edit.SelectedNote.Request) {
-        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         var editError: Error?
         noteForEdit!.info = request.note.info
         noteForEdit!.title = request.note.title
         noteForEdit!.isFavourite = request.note.isFavourite
         noteForEdit!.creationDate = request.note.createDate
         do {
-            try context.save()
+            try AppDelegatConstant.context.save()
         } catch {
             editError = error
         }
