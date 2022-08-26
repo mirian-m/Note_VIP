@@ -32,6 +32,18 @@ class FavouriteViewController: UITableViewController, FavouriteDisplayLogic {
         setup()
     }
     
+    // MARK: View lifecycle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        title = "Favourite Note"
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super .viewWillAppear(true)
+        getFavouriteNote()
+    }
+    
     // MARK: Setup
     
     private func setup() {
@@ -47,21 +59,6 @@ class FavouriteViewController: UITableViewController, FavouriteDisplayLogic {
         router.dataStore = interactor
     }
     
-    // MARK: View lifecycle
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        title = "Favourite Note"
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super .viewWillAppear(true)
-        getFavouriteNote()
-    }
-    
-    // MARK: Do something
-    
-    //@IBOutlet weak var nameTextField: UITextField!
     
     func getFavouriteNote() {
         let request = Favourite.Something.Request()
