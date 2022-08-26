@@ -14,6 +14,36 @@
 		846F8FBA28B8052300CC719C /* MirianMaglakelidze_26.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 846F8FB828B8052300CC719C /* MirianMaglakelidze_26.xcdatamodeld */; };
 		846F8FBC28B8052F00CC719C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846F8FBB28B8052F00CC719C /* Assets.xcassets */; };
 		846F8FBF28B8052F00CC719C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846F8FBD28B8052F00CC719C /* LaunchScreen.storyboard */; };
+		846F8FCF28B80F7700CC719C /* NotePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F8FC928B80F7700CC719C /* NotePresenter.swift */; };
+		846F8FD028B80F7700CC719C /* NoteWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F8FCA28B80F7700CC719C /* NoteWorker.swift */; };
+		846F8FD128B80F7700CC719C /* NoteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F8FCB28B80F7700CC719C /* NoteRouter.swift */; };
+		846F8FD228B80F7700CC719C /* NoteModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F8FCC28B80F7700CC719C /* NoteModels.swift */; };
+		846F8FD328B80F7700CC719C /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F8FCD28B80F7700CC719C /* NoteViewController.swift */; };
+		846F8FD428B80F7700CC719C /* NoteInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F8FCE28B80F7700CC719C /* NoteInteractor.swift */; };
+		846F8FD828B8119F00CC719C /* ConstanFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F8FD728B8119F00CC719C /* ConstanFile.swift */; };
+		846F8FDD28B8126500CC719C /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F8FDC28B8126500CC719C /* NoteTableViewCell.swift */; };
+		84C37F7228B8A1D50093A2F6 /* MyNote+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F7028B8A1D50093A2F6 /* MyNote+CoreDataClass.swift */; };
+		84C37F7328B8A1D50093A2F6 /* MyNote+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F7128B8A1D50093A2F6 /* MyNote+CoreDataProperties.swift */; };
+		84C37F7D28B8B5D20093A2F6 /* EditPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F7728B8B5D20093A2F6 /* EditPresenter.swift */; };
+		84C37F7E28B8B5D20093A2F6 /* EditWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F7828B8B5D20093A2F6 /* EditWorker.swift */; };
+		84C37F7F28B8B5D20093A2F6 /* EditRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F7928B8B5D20093A2F6 /* EditRouter.swift */; };
+		84C37F8028B8B5D20093A2F6 /* EditModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F7A28B8B5D20093A2F6 /* EditModels.swift */; };
+		84C37F8128B8B5D20093A2F6 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F7B28B8B5D20093A2F6 /* EditViewController.swift */; };
+		84C37F8228B8B5D20093A2F6 /* EditInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F7C28B8B5D20093A2F6 /* EditInteractor.swift */; };
+		84C37F8B28B8E50E0093A2F6 /* AddPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F8528B8E50D0093A2F6 /* AddPresenter.swift */; };
+		84C37F8C28B8E50E0093A2F6 /* AddWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F8628B8E50D0093A2F6 /* AddWorker.swift */; };
+		84C37F8D28B8E50E0093A2F6 /* AddRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F8728B8E50D0093A2F6 /* AddRouter.swift */; };
+		84C37F8E28B8E50E0093A2F6 /* AddModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F8828B8E50E0093A2F6 /* AddModels.swift */; };
+		84C37F8F28B8E50E0093A2F6 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F8928B8E50E0093A2F6 /* AddViewController.swift */; };
+		84C37F9028B8E50E0093A2F6 /* AddInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F8A28B8E50E0093A2F6 /* AddInteractor.swift */; };
+		84C37F9428B8FAC50093A2F6 /* NoteForme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37F9328B8FAC50093A2F6 /* NoteForme.swift */; };
+		84C37FA128B910A20093A2F6 /* TitleForAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37FA028B910A20093A2F6 /* TitleForAlert.swift */; };
+		84C37FAA28B9152A0093A2F6 /* FavouritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37FA428B9152A0093A2F6 /* FavouritePresenter.swift */; };
+		84C37FAB28B9152A0093A2F6 /* FavouriteWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37FA528B9152A0093A2F6 /* FavouriteWorker.swift */; };
+		84C37FAC28B9152A0093A2F6 /* FavouriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37FA628B9152A0093A2F6 /* FavouriteRouter.swift */; };
+		84C37FAD28B9152A0093A2F6 /* FavouriteModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37FA728B9152A0093A2F6 /* FavouriteModels.swift */; };
+		84C37FAE28B9152A0093A2F6 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37FA828B9152A0093A2F6 /* FavouriteViewController.swift */; };
+		84C37FAF28B9152A0093A2F6 /* FavouriteInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C37FA928B9152A0093A2F6 /* FavouriteInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +56,36 @@
 		846F8FBB28B8052F00CC719C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846F8FBE28B8052F00CC719C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		846F8FC028B8052F00CC719C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846F8FC928B80F7700CC719C /* NotePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePresenter.swift; sourceTree = "<group>"; };
+		846F8FCA28B80F7700CC719C /* NoteWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteWorker.swift; sourceTree = "<group>"; };
+		846F8FCB28B80F7700CC719C /* NoteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRouter.swift; sourceTree = "<group>"; };
+		846F8FCC28B80F7700CC719C /* NoteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModels.swift; sourceTree = "<group>"; };
+		846F8FCD28B80F7700CC719C /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		846F8FCE28B80F7700CC719C /* NoteInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteInteractor.swift; sourceTree = "<group>"; };
+		846F8FD728B8119F00CC719C /* ConstanFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstanFile.swift; sourceTree = "<group>"; };
+		846F8FDC28B8126500CC719C /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		84C37F7028B8A1D50093A2F6 /* MyNote+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyNote+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84C37F7128B8A1D50093A2F6 /* MyNote+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyNote+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84C37F7728B8B5D20093A2F6 /* EditPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPresenter.swift; sourceTree = "<group>"; };
+		84C37F7828B8B5D20093A2F6 /* EditWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWorker.swift; sourceTree = "<group>"; };
+		84C37F7928B8B5D20093A2F6 /* EditRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRouter.swift; sourceTree = "<group>"; };
+		84C37F7A28B8B5D20093A2F6 /* EditModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditModels.swift; sourceTree = "<group>"; };
+		84C37F7B28B8B5D20093A2F6 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		84C37F7C28B8B5D20093A2F6 /* EditInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditInteractor.swift; sourceTree = "<group>"; };
+		84C37F8528B8E50D0093A2F6 /* AddPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPresenter.swift; sourceTree = "<group>"; };
+		84C37F8628B8E50D0093A2F6 /* AddWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorker.swift; sourceTree = "<group>"; };
+		84C37F8728B8E50D0093A2F6 /* AddRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRouter.swift; sourceTree = "<group>"; };
+		84C37F8828B8E50E0093A2F6 /* AddModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddModels.swift; sourceTree = "<group>"; };
+		84C37F8928B8E50E0093A2F6 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		84C37F8A28B8E50E0093A2F6 /* AddInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInteractor.swift; sourceTree = "<group>"; };
+		84C37F9328B8FAC50093A2F6 /* NoteForme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteForme.swift; sourceTree = "<group>"; };
+		84C37FA028B910A20093A2F6 /* TitleForAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleForAlert.swift; sourceTree = "<group>"; };
+		84C37FA428B9152A0093A2F6 /* FavouritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritePresenter.swift; sourceTree = "<group>"; };
+		84C37FA528B9152A0093A2F6 /* FavouriteWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteWorker.swift; sourceTree = "<group>"; };
+		84C37FA628B9152A0093A2F6 /* FavouriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRouter.swift; sourceTree = "<group>"; };
+		84C37FA728B9152A0093A2F6 /* FavouriteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteModels.swift; sourceTree = "<group>"; };
+		84C37FA828B9152A0093A2F6 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		84C37FA928B9152A0093A2F6 /* FavouriteInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +118,12 @@
 		846F8FAE28B8052300CC719C /* MirianMaglakelidze#26 */ = {
 			isa = PBXGroup;
 			children = (
+				84C37F7028B8A1D50093A2F6 /* MyNote+CoreDataClass.swift */,
+				84C37F7128B8A1D50093A2F6 /* MyNote+CoreDataProperties.swift */,
+				84C37F9628B8FAD30093A2F6 /* Model */,
+				846F8FDA28B8122800CC719C /* CustomCells */,
+				846F8FD628B8118B00CC719C /* Conastans */,
+				846F8FC728B80F2C00CC719C /* Scenes */,
 				846F8FAF28B8052300CC719C /* AppDelegate.swift */,
 				846F8FB128B8052300CC719C /* SceneDelegate.swift */,
 				846F8FB328B8052300CC719C /* ViewController.swift */,
@@ -68,6 +134,102 @@
 				846F8FB828B8052300CC719C /* MirianMaglakelidze_26.xcdatamodeld */,
 			);
 			path = "MirianMaglakelidze#26";
+			sourceTree = "<group>";
+		};
+		846F8FC728B80F2C00CC719C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				84C37FA328B9150C0093A2F6 /* Favourite */,
+				84C37F8428B8E4F30093A2F6 /* AddNote */,
+				84C37F7628B8B5A20093A2F6 /* EditNote */,
+				846F8FC828B80F5100CC719C /* Note */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		846F8FC828B80F5100CC719C /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				846F8FC928B80F7700CC719C /* NotePresenter.swift */,
+				846F8FCA28B80F7700CC719C /* NoteWorker.swift */,
+				846F8FCB28B80F7700CC719C /* NoteRouter.swift */,
+				846F8FCC28B80F7700CC719C /* NoteModels.swift */,
+				846F8FCD28B80F7700CC719C /* NoteViewController.swift */,
+				846F8FCE28B80F7700CC719C /* NoteInteractor.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		846F8FD628B8118B00CC719C /* Conastans */ = {
+			isa = PBXGroup;
+			children = (
+				846F8FD728B8119F00CC719C /* ConstanFile.swift */,
+			);
+			path = Conastans;
+			sourceTree = "<group>";
+		};
+		846F8FDA28B8122800CC719C /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				846F8FDB28B8124600CC719C /* NoteTableVieCell */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		846F8FDB28B8124600CC719C /* NoteTableVieCell */ = {
+			isa = PBXGroup;
+			children = (
+				846F8FDC28B8126500CC719C /* NoteTableViewCell.swift */,
+			);
+			path = NoteTableVieCell;
+			sourceTree = "<group>";
+		};
+		84C37F7628B8B5A20093A2F6 /* EditNote */ = {
+			isa = PBXGroup;
+			children = (
+				84C37F7728B8B5D20093A2F6 /* EditPresenter.swift */,
+				84C37F7828B8B5D20093A2F6 /* EditWorker.swift */,
+				84C37F7928B8B5D20093A2F6 /* EditRouter.swift */,
+				84C37F7A28B8B5D20093A2F6 /* EditModels.swift */,
+				84C37F7B28B8B5D20093A2F6 /* EditViewController.swift */,
+				84C37F7C28B8B5D20093A2F6 /* EditInteractor.swift */,
+			);
+			path = EditNote;
+			sourceTree = "<group>";
+		};
+		84C37F8428B8E4F30093A2F6 /* AddNote */ = {
+			isa = PBXGroup;
+			children = (
+				84C37F8528B8E50D0093A2F6 /* AddPresenter.swift */,
+				84C37F8628B8E50D0093A2F6 /* AddWorker.swift */,
+				84C37F8728B8E50D0093A2F6 /* AddRouter.swift */,
+				84C37F8828B8E50E0093A2F6 /* AddModels.swift */,
+				84C37F8928B8E50E0093A2F6 /* AddViewController.swift */,
+				84C37F8A28B8E50E0093A2F6 /* AddInteractor.swift */,
+			);
+			path = AddNote;
+			sourceTree = "<group>";
+		};
+		84C37F9628B8FAD30093A2F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84C37F9328B8FAC50093A2F6 /* NoteForme.swift */,
+				84C37FA028B910A20093A2F6 /* TitleForAlert.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84C37FA328B9150C0093A2F6 /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				84C37FA428B9152A0093A2F6 /* FavouritePresenter.swift */,
+				84C37FA528B9152A0093A2F6 /* FavouriteWorker.swift */,
+				84C37FA628B9152A0093A2F6 /* FavouriteRouter.swift */,
+				84C37FA728B9152A0093A2F6 /* FavouriteModels.swift */,
+				84C37FA828B9152A0093A2F6 /* FavouriteViewController.swift */,
+				84C37FA928B9152A0093A2F6 /* FavouriteInteractor.swift */,
+			);
+			path = Favourite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +302,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C37F8228B8B5D20093A2F6 /* EditInteractor.swift in Sources */,
+				84C37F8D28B8E50E0093A2F6 /* AddRouter.swift in Sources */,
+				84C37F8C28B8E50E0093A2F6 /* AddWorker.swift in Sources */,
+				846F8FCF28B80F7700CC719C /* NotePresenter.swift in Sources */,
+				84C37F8028B8B5D20093A2F6 /* EditModels.swift in Sources */,
+				84C37FAA28B9152A0093A2F6 /* FavouritePresenter.swift in Sources */,
+				84C37FAC28B9152A0093A2F6 /* FavouriteRouter.swift in Sources */,
 				846F8FB428B8052300CC719C /* ViewController.swift in Sources */,
 				846F8FB028B8052300CC719C /* AppDelegate.swift in Sources */,
+				84C37FAD28B9152A0093A2F6 /* FavouriteModels.swift in Sources */,
+				84C37F8E28B8E50E0093A2F6 /* AddModels.swift in Sources */,
+				84C37F8128B8B5D20093A2F6 /* EditViewController.swift in Sources */,
+				84C37F8B28B8E50E0093A2F6 /* AddPresenter.swift in Sources */,
+				84C37FAE28B9152A0093A2F6 /* FavouriteViewController.swift in Sources */,
+				84C37F9028B8E50E0093A2F6 /* AddInteractor.swift in Sources */,
+				846F8FD028B80F7700CC719C /* NoteWorker.swift in Sources */,
+				846F8FD828B8119F00CC719C /* ConstanFile.swift in Sources */,
+				84C37F7D28B8B5D20093A2F6 /* EditPresenter.swift in Sources */,
+				84C37FAB28B9152A0093A2F6 /* FavouriteWorker.swift in Sources */,
+				846F8FD428B80F7700CC719C /* NoteInteractor.swift in Sources */,
+				846F8FD328B80F7700CC719C /* NoteViewController.swift in Sources */,
+				84C37F8F28B8E50E0093A2F6 /* AddViewController.swift in Sources */,
+				84C37FAF28B9152A0093A2F6 /* FavouriteInteractor.swift in Sources */,
+				84C37F7F28B8B5D20093A2F6 /* EditRouter.swift in Sources */,
+				84C37F7328B8A1D50093A2F6 /* MyNote+CoreDataProperties.swift in Sources */,
+				84C37F7228B8A1D50093A2F6 /* MyNote+CoreDataClass.swift in Sources */,
 				846F8FB228B8052300CC719C /* SceneDelegate.swift in Sources */,
+				84C37F9428B8FAC50093A2F6 /* NoteForme.swift in Sources */,
+				84C37F7E28B8B5D20093A2F6 /* EditWorker.swift in Sources */,
+				84C37FA128B910A20093A2F6 /* TitleForAlert.swift in Sources */,
+				846F8FD228B80F7700CC719C /* NoteModels.swift in Sources */,
+				846F8FD128B80F7700CC719C /* NoteRouter.swift in Sources */,
 				846F8FBA28B8052300CC719C /* MirianMaglakelidze_26.xcdatamodeld in Sources */,
+				846F8FDD28B8126500CC719C /* NoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
